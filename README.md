@@ -30,11 +30,11 @@ Here, we only upload the mnist dataset in the default heterogeneous setting with
 
 ## Illustrations
 
-- Local learning process on client i.
+- Local learning process on client i in the t-th iteration. Specifically, client i downloads the global model from the server, locally aggregates it with the old local model by ALA module for local initialization, trains the local model, and finally uploads the trained local model to the server.
 
 ![](./figs/illustrate.jpg)
 
-- Learning process in ALA.
+- The learning process in ALA. LA denotes “local aggregation”. Here, we consider a five-layer model and set p=3. The lighter the color, the larger the value.
 
 ![](./figs/ALA.jpg)
 
