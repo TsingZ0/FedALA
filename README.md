@@ -34,7 +34,7 @@ Here, we only upload the mnist dataset in the default heterogeneous setting with
 
 ![](./figs/illustrate.jpg)
 
-- The learning process in ALA. LA denotes “local aggregation”. Here, we consider a five-layer model and set p=3. The lighter the color, the larger the value.
+- The learning process in ALA. LA denotes "local aggregation". Here, we consider a five-layer model and set p=3. The lighter the color, the larger the value.
 
 ![](./figs/ALA.jpg)
 
