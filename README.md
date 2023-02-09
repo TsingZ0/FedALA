@@ -2,6 +2,9 @@
 
 This is the implementation of our paper *[FedALA: Adaptive Local Aggregation for Personalized Federated Learning](https://arxiv.org/abs/2212.01197)* (accepted by AAAI 2023).
 
+- [Oral PPT](./FedALAOral.pdf)
+- [Poster PDF](./FedALAPoster.pdf)
+
 
 # Dataset
 
