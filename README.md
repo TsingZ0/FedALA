@@ -6,6 +6,18 @@ This is the implementation of our paper *[FedALA: Adaptive Local Aggregation for
 - [Poster PDF](./FedALAPoster.pdf)
 
 
+## Citation
+
+```
+@inproceedings{zhang2022fedala,
+  title={{FedALA: Adaptive Local Aggregation for Personalized Federated Learning}},
+  author={Zhang, Jianqing and Hua, Yang and Wang, Hao and Song, Tao and Xue, Zhengui and Ma, Ruhui and Guan, Haibing},
+  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2023}
+}
+```
+
+
 # Dataset
 
 Here, we only upload the mnist dataset in the default heterogeneous setting with Dir(0.1) for example. You can generate other datasets following [PFL-Non-IID](https://github.com/TsingZ0/PFL-Non-IID).
@@ -92,15 +104,4 @@ All codes corresponding to **FedALA** are stored in `./system`. Just run the fol
 ```
 cd ./system
 sh run_me.sh
-```
-
-# Citation
-
-```
-@inproceedings{zhang2022fedala,
-  title={{FedALA: Adaptive Local Aggregation for Personalized Federated Learning}},
-  author={Zhang, Jianqing and Hua, Yang and Wang, Hao and Song, Tao and Xue, Zhengui and Ma, Ruhui and Guan, Haibing},
-  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
-  year={2023}
-}
 ```
