@@ -95,8 +95,8 @@ if __name__ == "__main__":
                         help="Rounds gap for evaluation")
    
     parser.add_argument('-et', "--eta", type=float, default=1.0)
-    parser.add_argument('-rp', "--rand_percent", type=int, default=100)
-    parser.add_argument('-li', "--layer_idx", type=int, default=0)
+    parser.add_argument('-s', "--rand_percent", type=int, default=80)
+    parser.add_argument('-p', "--layer_idx", type=int, default=2)
 
     args = parser.parse_args()
 
