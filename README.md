@@ -93,3 +93,14 @@ All codes corresponding to **FedALA** are stored in `./system`. Just run the fol
 cd ./system
 sh run_me.sh
 ```
+
+# Citation
+
+```
+@inproceedings{zhang2022fedala,
+  title={{FedALA: Adaptive Local Aggregation for Personalized Federated Learning}},
+  author={Zhang, Jianqing and Hua, Yang and Wang, Hao and Song, Tao and Xue, Zhengui and Ma, Ruhui and Guan, Haibing},
+  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2023}
+}
+```
