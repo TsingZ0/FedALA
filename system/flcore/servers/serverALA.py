@@ -49,10 +49,13 @@ class FedALA(object):
                 print("\nEvaluate global model")
                 self.evaluate()
 
-            threads = [Thread(target=client.train)
-                       for client in self.selected_clients]
-            [t.start() for t in threads]
-            [t.join() for t in threads]
+            for client in self.selected_clients:
+                client.train()
+
+            # threads = [Thread(target=client.train)
+            #            for client in self.selected_clients]
+            # [t.start() for t in threads]
+            # [t.join() for t in threads]
 
             self.receive_models()
             self.aggregate_parameters()
