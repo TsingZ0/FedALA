@@ -106,4 +106,4 @@ cd ./system
 sh run_me.sh
 ```
 
-**Note**: Due to the dynamics of the *floating-point calculation accuracy* of different GPUs, you may need to set a suitable `threshold` (by default, we set it to 0.01 in our paper) for the ALA module to control its convergence level in the start phase. A small `threshold` may cause your system to get *stuck* in the first iteration.
+**Note**: Due to the dynamics of the *floating-point calculation accuracy* of different GPUs, you may need to set a suitable `threshold` (we set it to 0.01 in our paper by default) for the ALA module to control its convergence level in the start phase. A small `threshold` may cause your system to get *stuck* in the first iteration.
