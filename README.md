@@ -9,10 +9,13 @@ This is the implementation of our paper *[FedALA: Adaptive Local Aggregation for
 ## Citation
 
 ```
-@inproceedings{zhang2022fedala,
-  title={{FedALA: Adaptive Local Aggregation for Personalized Federated Learning}},
+@inproceedings{zhang2023fedala,
+  title={Fedala: Adaptive local aggregation for personalized federated learning},
   author={Zhang, Jianqing and Hua, Yang and Wang, Hao and Song, Tao and Xue, Zhengui and Ma, Ruhui and Guan, Haibing},
-  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={9},
+  pages={11237--11244},
   year={2023}
 }
 ```
