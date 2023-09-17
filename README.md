@@ -1,6 +1,6 @@
 # Introduction
 
-This is the implementation of our paper *[FedALA: Adaptive Local Aggregation for Personalized Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/26330)* (accepted by AAAI 2023). An extended version (derivation of Equation (6), hyperparameter settings, etc.) can be found at https://arxiv.org/pdf/2212.01197v3.pdf.
+This is the implementation of our paper *[FedALA: Adaptive Local Aggregation for Personalized Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/26330)* (accepted by AAAI 2023). An extended version (derivation of Equation (6), hyperparameter settings, etc.) can be found at https://arxiv.org/pdf/2212.01197v4.pdf.
 
 - [Oral PPT](./FedALAOral.pdf)
 - [Poster PDF](./FedALAPoster.pdf)
