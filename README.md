@@ -23,7 +23,7 @@ This is the implementation of our paper *[FedALA: Adaptive Local Aggregation for
 
 # Dataset
 
-Here, we only upload the mnist dataset in the default heterogeneous setting with Dir(0.1) for example. You can generate other datasets following [PFL-Non-IID](https://github.com/TsingZ0/PFL-Non-IID).
+Here, we only upload the mnist dataset in the default heterogeneous setting with Dir(0.1) for example. You can generate other datasets following [PFLlib](https://github.com/TsingZ0/PFLlib).
 
 
 # System
