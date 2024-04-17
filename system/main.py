@@ -97,7 +97,7 @@ if __name__ == "__main__":
     parser.add_argument('-et', "--eta", type=float, default=1.0)
     parser.add_argument('-s', "--rand_percent", type=int, default=80)
     parser.add_argument('-p', "--layer_idx", type=int, default=2,
-                        help="More fine-graind than its original paper.")
+                        help="More fine-grained than its original paper.")
 
     args = parser.parse_args()
 
