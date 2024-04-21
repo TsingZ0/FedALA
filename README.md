@@ -94,7 +94,7 @@ class Client(object):
 # Simulation
 
 ## Environments
-With the installed [conda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh), we can run this platform in a conda virtual environment called *fl_torch*. 
+With the installed [conda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh), we can run this platform in a conda virtual environment called *fl*. 
 ```
 conda env create -f env_linux.yaml # for Linux
 ```
