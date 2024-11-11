@@ -21,9 +21,9 @@ This is the implementation of our paper *[FedALA: Adaptive Local Aggregation for
 ```
 
 
-# Dataset
+# Datasets and Environments
 
-Here, we only upload the mnist dataset in the default heterogeneous setting with Dir(0.1) for example. You can generate other datasets following [PFLlib](https://github.com/TsingZ0/PFLlib).
+Here, we only upload the mnist dataset in the default heterogeneous setting with Dir(0.1) for example. You can generate other datasets and environment settings following [PFLlib](https://github.com/TsingZ0/PFLlib).
 
 
 # System
@@ -91,16 +91,7 @@ class Client(object):
         # other code
 ```
 
-# Simulation
-
-## Environments
-With the installed [conda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh), we can run this platform in a conda virtual environment called *fl*. 
-```
-conda env create -f env_cuda_latest.yaml # for Linux
-```
-
-
-## Training and Evaluation
+# Training and Evaluation
 
 All codes corresponding to **FedALA** are stored in `./system`. Just run the following commands.
 
